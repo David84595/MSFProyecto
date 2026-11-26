@@ -59,6 +59,7 @@ El **asma** es una enfermedad inflamatoria crónica de las vías respiratorias c
 
 ### 1. Diagrama biológico del sistema respiratorio (BioRender)
 
+<img width="1262" height="896" alt="image" src="https://github.com/user-attachments/assets/74265346-497d-49f0-a7cc-9ae998fe23b5" />
 
 
 
