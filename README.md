@@ -40,6 +40,8 @@ Diseñar un modelo matemático didáctico de segundo orden del **sistema respira
 
 > **Alcance académico:** El modelo desarrollado tiene una finalidad estrictamente didáctica y académica, incluyendo simplificaciones y condiciones ideales de operación. Los valores eléctricos de resistencia, capacitancia e inductancia actúan como parámetros equivalentes del modelo y no representan mediciones clínicas directas ni herramientas de diagnóstico o tratamiento médico.
 
+**Palabras clave:** sistema respiratorio; asma bronquial; circuito RLC; analogía eléctrica; controlador PID.
+
 ---
 
 ## Descripción fisiológica y enfermedad seleccionada (Asma)
@@ -59,16 +61,17 @@ El **asma** es una enfermedad inflamatoria crónica de las vías respiratorias c
 
 ### 1. Diagrama biológico del sistema respiratorio (BioRender)
 
-<img width="1262" height="896" alt="image" src="https://github.com/user-attachments/assets/74265346-497d-49f0-a7cc-9ae998fe23b5" />
-
-
+<p align="center">
+  <img width="850" alt="Diagrama biológico del sistema respiratorio con asma elaborado en BioRender" src="imagenes/biorender_respiratorio_asma.png" />
+</p>
 
 *Figura 1.* Representación anatómica y funcional del sistema respiratorio en condiciones normales (Control) y con asma (Caso), mostrando la correspondencia de los elementos eléctricos ($V_e(t)$, $R_1$, $R_2$, $R_3$, $C$, $L$, $I_1(t)$ y $V_s(t)$). Elaborado en BioRender.com.
 
 ### 2. Circuito eléctrico equivalente de segundo orden
 
-<img width="738" height="460" alt="image" src="https://github.com/user-attachments/assets/27c203b3-3912-4eeb-9c3c-91cc7ff60121" />
-
+<p align="center">
+  <img width="750" alt="Circuito eléctrico equivalente RLC de segundo orden del sistema respiratorio" src="imagenes/circuito_equivalente_asma.png" />
+</p>
 
 *Figura 2.* Topología del circuito eléctrico equivalente propuesto para el modelado del sistema respiratorio ($R_1$, $C$, $L$, $R_2$, $R_3$), identificando la entrada $V_e(t)$, los nodos $V_1$, $V_2$ y la salida $V_s(t)$.
 
@@ -198,7 +201,7 @@ $$s_1 \approx -5.556, \qquad s_2 \approx -1.80 \times 10^8.$$
 **Conclusión de estabilidad:** En ambos escenarios, los dos polos son reales, distintos y estrictamente negativos (ubicados en el semiplano izquierdo del plano $s$). Por lo tanto, **ambos sistemas son estables en lazo abierto y presentan una respuesta sobreamortiguada** sin oscilaciones. El polo dominante del caso ($s_1 \approx -5.556$) se desplaza ligeramente hacia el origen respecto al control ($s_1 \approx -5.909$), reflejando una constante de tiempo mayor (respuesta más lenta) además de la caída de amplitud.
 
 ---
-Palabras clave: Sistema respiratorio; Analogía eléctrica RLC; Función de transferencia; Asma; Controlador PID;.
+
 ## Experimentación in silico en lazo abierto
 
 Para ambos escenarios (*control* y *caso*) se implementan y verifican de manera independiente tres representaciones equivalentes en **MATLAB/Simulink**:
