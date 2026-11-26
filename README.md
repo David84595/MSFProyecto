@@ -59,19 +59,17 @@ El **asma** es una enfermedad inflamatoria crónica de las vías respiratorias c
 
 ### 1. Diagrama biológico del sistema respiratorio (BioRender)
 
-<p align="center">
-  <img width="850" alt="Diagrama biológico del sistema respiratorio con asma elaborado en BioRender" src="imagenes/biorender_respiratorio_asma.png" />
-</p>
 
-*Figura 1. Representación anatómica y funcional del sistema respiratorio en condiciones normales (Control) y con asma (Caso), mostrando la correspondencia de los elementos eléctricos ($V_e(t)$, $R_1$, $R_2$, $R_3$, $C$, $L$, $I_1(t)$ y $V_s(t)$). Elaborado en BioRender.com.*
+
+
+*Figura 1.* Representación anatómica y funcional del sistema respiratorio en condiciones normales (Control) y con asma (Caso), mostrando la correspondencia de los elementos eléctricos ($V_e(t)$, $R_1$, $R_2$, $R_3$, $C$, $L$, $I_1(t)$ y $V_s(t)$). Elaborado en BioRender.com.
 
 ### 2. Circuito eléctrico equivalente de segundo orden
 
-<p align="center">
-  <img width="750" alt="Circuito eléctrico equivalente RLC de segundo orden del sistema respiratorio" src="imagenes/circuito_equivalente_asma.png" />
-</p>
+<img width="738" height="460" alt="image" src="https://github.com/user-attachments/assets/27c203b3-3912-4eeb-9c3c-91cc7ff60121" />
 
-*Figura 2. Topología del circuito eléctrico equivalente propuesto para el modelado del sistema respiratorio ($R_1$, $C$, $L$, $R_2$, $R_3$), identificando la entrada $V_e(t)$, los nodos $V_1$, $V_2$ y la salida $V_s(t)$.*
+
+*Figura 2.* Topología del circuito eléctrico equivalente propuesto para el modelado del sistema respiratorio ($R_1$, $C$, $L$, $R_2$, $R_3$), identificando la entrada $V_e(t)$, los nodos $V_1$, $V_2$ y la salida $V_s(t)$.
 
 > **Nota para el repositorio:** Guarda la imagen exportada de BioRender en `imagenes/biorender_respiratorio_asma.png` y el diagrama limpio del circuito en `imagenes/circuito_equivalente_asma.png` (o actualiza las rutas `src="..."` según el nombre exacto de tus archivos).
 
