@@ -198,7 +198,7 @@ $$s_1 \approx -5.556, \qquad s_2 \approx -1.80 \times 10^8.$$
 **Conclusión de estabilidad:** En ambos escenarios, los dos polos son reales, distintos y estrictamente negativos (ubicados en el semiplano izquierdo del plano $s$). Por lo tanto, **ambos sistemas son estables en lazo abierto y presentan una respuesta sobreamortiguada** sin oscilaciones. El polo dominante del caso ($s_1 \approx -5.556$) se desplaza ligeramente hacia el origen respecto al control ($s_1 \approx -5.909$), reflejando una constante de tiempo mayor (respuesta más lenta) además de la caída de amplitud.
 
 ---
-
+Palabras clave: Sistema respiratorio; Analogía eléctrica RLC; Función de transferencia; Asma; Controlador PID;.
 ## Experimentación in silico en lazo abierto
 
 Para ambos escenarios (*control* y *caso*) se implementan y verifican de manera independiente tres representaciones equivalentes en **MATLAB/Simulink**:
