@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Proyecto Final: Sistema respiratorio con asma'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Briseida
+    family-names: Prado
+    email: L23210715@tijuana.tecnm.mx
+    affiliation: TecNM / IT Tijuana
+  - given-names: David
+    family-names: Cerano
+    email: L23210696@tijuana.tecnm.mx
+    affiliation: TecNM / IT Tijuana
+  - given-names: Yasdit
+    family-names: Contreras
+    email: L23212188@tijuana.tecnm.mx
+    affiliation: TecNM / IT Tijuana
+repository-code: 'https://github.com/David84595/MSFProyecto'
+keywords:
+  - Sistema respiratorio
+  - Analogía eléctrica RLC
+  - Función de transferencia
+  - Asma
+  - Controlador PID
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-11-26'
