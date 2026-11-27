@@ -233,7 +233,6 @@ $$C(s) = k_P + \frac{k_I}{s} + k_D s.$$
 | Sobreimpulso ($M_p$) | *Pendiente de registrar* |
 | Valor pico | *Pendiente de registrar* |
 
-> *Espacio reservado para insertar las gráficas comparativas de lazo cerrado ($V_e(t)$, $V_{s,\mathrm{control}}(t)$, $V_{s,\mathrm{caso}}(t)$ y $V_{s,\mathrm{PID}}(t)$) en MATLAB y Python.*
 
 ---
 
