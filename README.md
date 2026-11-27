@@ -73,8 +73,6 @@ El **asma** es una enfermedad inflamatoria crónica de las vías respiratorias c
 
 *Figura 2.* Topología del circuito eléctrico equivalente propuesto para el modelado del sistema respiratorio ($R_1$, $C$, $L$, $R_2$, $R_3$), identificando la entrada $V_e(t)$, los nodos $V_1$, $V_2$ y la salida $V_s(t)$.
 
-> **Nota para el repositorio:** Guarda la imagen exportada de BioRender en `imagenes/biorender_respiratorio_asma.png` y el diagrama limpio del circuito en `imagenes/circuito_equivalente_asma.png` (o actualiza las rutas `src="..."` según el nombre exacto de tus archivos).
-
 ---
 
 ## Analogía eléctrica y parámetros (Control vs. Caso)
@@ -207,8 +205,6 @@ Para ambos escenarios (*control* y *caso*) se implementan y verifican de manera 
 2. **Función de transferencia:** Bloques `Transfer Fcn` con los coeficientes calculados de $G_{\mathrm{control}}(s)$ y $G_{\mathrm{caso}}(s)$.
 3. **Circuito eléctrico equivalente:** Modelo físico implementado en **Simscape Electrical**.
 
-> *Espacio reservado para insertar las gráficas comparativas de lazo abierto obtenidas en MATLAB/Simulink y Python.*
-
 ---
 
 ## Diseño del sistema de control en lazo cerrado (PID)
@@ -239,25 +235,3 @@ $$C(s) = k_P + \frac{k_I}{s} + k_D s.$$
 
 ---
 
-## Estructura del repositorio y entregables
-
-```text
-.
-├── README.md                                  # Documentación principal del proyecto
-├── CITATION.cff                               # Metadatos de citación académica del equipo
-├── imagenes/
-│   ├── biorender_respiratorio_asma.png        # Diagrama fisiológico (BioRender)
-│   └── circuito_equivalente_asma.png          # Esquema del circuito RLC equivalente
-├── documentos/
-│   ├── Calculos_Matematicos_Asma.pdf          # Desarrollo analítico completo
-│   └── Ensayo_Grafico_Asma.pdf                # Producto de divulgación científica
-├── matlab_simulink/
-│   ├── ProyectoFinal_Asma.mlx                 # Cuaderno computacional de MATLAB
-│   ├── ProyectoFinal_Asma.pdf                 # Exportación en PDF del cuaderno
-│   └── Modelo_Respiratorio_Asma.slx           # Modelos EID, FT, Simscape y PID
-├── python/
-│   └── simulacion_respiratorio_asma.py        # Verificación numérica en Python
-└── figuras/
-    ├── lazo_abierto_control_vs_caso.pdf       # Comparación en lazo abierto
-    ├── verificacion_representaciones.pdf      # EID vs. FT vs. Simscape
-    └── lazo_cerrado_pid.pdf                   # Comparación con controlador PID
