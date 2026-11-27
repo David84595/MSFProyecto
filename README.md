@@ -225,14 +225,9 @@ $$C(s) = k_P + \frac{k_I}{s} + k_D s.$$
 
 | Parámetro / Métrica de desempeño | Valor obtenido |
 | --- | --- |
-| Ganancia proporcional ($k_P$) | *Pendiente de registrar* |
-| Ganancia integral ($k_I$) | *Pendiente de registrar* |
-| Ganancia derivativa ($k_D$) | *Pendiente de registrar* |
-| Tiempo de subida ($t_r$) | *Pendiente de registrar* |
-| Tiempo de establecimiento ($t_s$) | *Pendiente de registrar* |
-| Sobreimpulso ($M_p$) | *Pendiente de registrar* |
-| Valor pico | *Pendiente de registrar* |
-
+| Ganancia proporcional ($k_P$) | 289.557|
+| Ganancia integral ($k_I$) | 70561.079 |
+| Ganancia derivativa ($k_D$) | 0.038 |
 
 ---
 
